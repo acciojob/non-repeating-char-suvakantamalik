@@ -10,10 +10,10 @@ function firstNonRepeatedChar(str) {
 			}
 		}
 		if(found){
-			return i;
+			return str[i];
 		}
 	}
-	return -1;
+	return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
